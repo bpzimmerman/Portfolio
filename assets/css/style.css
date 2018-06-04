@@ -1,0 +1,204 @@
+.scroll {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.jumbotron {
+  background-image: url("../img/background.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+#portrait {
+  max-width: 12rem;
+  height: auto;
+  margin: 2rem 0 0.75rem 0;
+  border-radius: 0.1875rem;
+}
+
+.fab {
+  font-size: 250%;
+  letter-spacing: 0.5rem;
+}
+
+a:hover {
+ text-decoration: none;
+}
+
+.title {
+  color: white;
+}
+
+.divider {
+  max-width: 95%;
+  height: 1.3rem;
+  border-bottom: double;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.sk {
+  margin-left: 5%;
+}
+
+.ac {
+  margin-right: 5%;
+}
+
+.div-label {
+  padding: 0 0.5rem;
+  background-color: white;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.offset:before { 
+	display: block;
+ 	content: " ";
+  height: 56px;
+  margin-top: -56px;
+  visibility: hidden;
+}
+
+.abt-txt {
+  max-width: 90%;
+  margin: auto;
+  font-size: 1.25rem;
+}
+
+.port-pic {
+  max-width: 90%;
+  height: auto;
+  float: right;
+  border-radius: 0.1875rem;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+.port-desc {
+  max-width: 90%;
+}
+
+.port-desc p {
+  font-size: 1.25rem;
+}
+
+.site-lnks a {
+  margin-top: 5px;
+}
+
+hr {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills {
+  max-width: 90%;
+  margin-left: 7.5%;
+}
+
+.skills hr {
+  max-width: 100%;
+}
+
+#feed {
+  max-width: 90%;
+  margin-left: 2.5%;
+}
+
+.card {
+  text-align: center;
+  font-size: 1.25rem;
+  border-radius: 0.1875rem;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+.card-body a {
+  color: #4183c4;
+}
+
+.fas {
+  font-size: 150%;
+}
+
+footer p {
+  margin: auto;
+  font-size: 0.75rem;
+  color: black;
+}
+
+@media (max-width: 1078px) {
+  .card-body a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 904px) {
+  .card-body a {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .port-pic {
+    display: block;
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
+
+  .port-desc {
+    margin: auto;
+  }
+
+  .sk, .ac {
+    margin: 2rem auto;
+  }
+
+  #feed {
+    margin: auto;
+  }
+
+  .card-body a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  div.jumbotron {
+    padding: 4rem 1rem;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 368px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 251px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 212px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 192px) {
+  html {
+    font-size: 8px;
+  }
+}
